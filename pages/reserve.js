@@ -1,8 +1,8 @@
 import Router from 'next/router'
 import Header from '../components/header'
 
-const ClickToReserve = () => Router.push({
-  pathname: '/reserve'
+const ClicktoIndex = () => Router.push({
+  pathname: '/'
 })
 
 const style = {
@@ -18,14 +18,12 @@ const style = {
   cursor: 'pointer',
 }
 
-const Index = () => (
+const Reserve = () => (
   <div>
-   <Header />
-
-    <a onClick={() => ClickToReserve()} style={style}>กดจอง</a>
-    <h1>ยินดีต้อนรับ</h1>
-    
+    <Header />
+    <a onClick={() => ClicktoIndex()} style={style}>กลับหน้าหลัก</a>
+    <h1>นี้หน้าจองนะ</h1>
   </div>
 )
 
-export default Index
+export default Reserve
