@@ -1,0 +1,29 @@
+{
+  "name": "borrow_cmm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+ 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/few2539/borrow_cmm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/few2539/borrow_cmm/issues"
+  },
+  "homepage": "https://github.com/few2539/borrow_cmm#readme",
+  "dependencies": {
+    "next": "^7.0.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
